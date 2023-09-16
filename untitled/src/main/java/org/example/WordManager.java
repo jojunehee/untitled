@@ -34,7 +34,7 @@ public class WordManager {
                  "    0. 나가기\n" +
                  "    ***********************\n" +
                  "    => 원하는 메뉴는?");
-         return s.nextInt();
+         return  s.nextInt();
     }
 
     public void start(){
@@ -42,12 +42,29 @@ public class WordManager {
             int menu = selectMenu();
             if(menu==0) break;
             System.out.println(menu);
-            if(menu==4){
-                wordCRUD.addWord();
+            if(menu==1){
+                wordCRUD.listAll();
             }
-            else if(menu==1){
-               wordCRUD.listAll();
-            };
+            else if(menu==2){
+                //내용물
+            }
+            else if(menu==3){
+                //내용물
+            }
+            else if(menu==4){
+                wordCRUD.addItem();
+            }
+            else if(menu==5){
+                wordCRUD.updateItem();
+                //내용물
+            }
+            else if(menu==6){
+                wordCRUD.deleteItem();
+                //내용물
+            }
+            else if(menu==7){
+                //내용물
+            }
         }
     }
 

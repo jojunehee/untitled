@@ -38,10 +38,11 @@ public class WordManager {
     }
 
     public void start(){
+        wordCRUD.loadFile();
         while (true) {
             int menu = selectMenu();
             if(menu==0) break;
-            System.out.println(menu);
+
             if(menu==1){
                 wordCRUD.listAll();
             }

@@ -1,1 +1,4 @@
-3|superintendent
+3|auperintendent|감독관, 관리자
+3|bperintendent|감독관, 관리자
+3|cuperintendent|감독관, 관리자
+3|duperintendent|감독관, 관리자

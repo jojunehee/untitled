@@ -23,7 +23,7 @@ public class WordManager {
         wordCRUD= new WordCRUD(s);
     }
     public int selectMenu(){
-         System.out.println("***********************\n" +
+         System.out.println("    ***********************\n" +
                  "    1. 모든 단어 보기\n" +
                  "    2. 수준별 단어 보기\n" +
                  "    3. 단어 검색\n" +
@@ -47,7 +47,7 @@ public class WordManager {
                 wordCRUD.listAll();
             }
             else if(menu==2){
-                //내용물
+                wordCRUD.searchLevel();
             }
             else if(menu==3){
                 //내용물

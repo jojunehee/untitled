@@ -50,22 +50,20 @@ public class WordManager {
                 wordCRUD.searchLevel();
             }
             else if(menu==3){
-                //내용물
+                wordCRUD.searchWord();
             }
             else if(menu==4){
                 wordCRUD.addItem();
             }
             else if(menu==5){
                 wordCRUD.updateItem();
-                //내용물
             }
             else if(menu==6){
                 wordCRUD.deleteItem();
-                //내용물
+
             }
             else if(menu==7){
                 wordCRUD.saveFile();
-                //내용물
             }
         }
     }

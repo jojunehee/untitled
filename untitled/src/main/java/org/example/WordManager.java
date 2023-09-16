@@ -64,6 +64,7 @@ public class WordManager {
                 //내용물
             }
             else if(menu==7){
+                wordCRUD.saveFile();
                 //내용물
             }
         }

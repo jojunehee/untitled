@@ -1,0 +1,4 @@
+  3|apple|사과
+2|banana|바나나
+3|cat|고양이
+1|dinner|저녁
